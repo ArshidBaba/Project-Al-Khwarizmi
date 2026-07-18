@@ -8,3 +8,7 @@ $$
 $$
 \forall x \in A,\; \exists y \in B
 $$
+
+
+
+print
