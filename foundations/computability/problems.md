@@ -1,15 +1,14 @@
 #### Problem 1
-
 ##### Let
 
 $$
 \Sigma_3 =
 \left\lbrace
-\begin{bmatrix} 0\\0\\0 \end{bmatrix},
-\begin{bmatrix} 0\\0\\1 \end{bmatrix},
-\begin{bmatrix} 0\\1\\0 \end{bmatrix},
+\begin{bmatrix} 0\\\\0\\\\0 \end{bmatrix},
+\begin{bmatrix} 0\\\\0\\\\1 \end{bmatrix},
+\begin{bmatrix} 0\\\\1\\\\0 \end{bmatrix},
 \ldots,
-\begin{bmatrix} 1\\1\\1 \end{bmatrix}
+\begin{bmatrix} 1\\\\1\\\\1 \end{bmatrix}
 \right\rbrace.
 $$
 
@@ -25,3 +24,25 @@ w \in \Sigma_3^{*}
 \text{the bottom row is the sum of the top two rows}
 \right\rbrace.
 $$
+
+##### Example
+
+$$
+\begin{bmatrix} 0\\\\0\\\\1 \end{bmatrix}
+\;
+\begin{bmatrix} 1\\\\0\\\\0 \end{bmatrix}
+\;
+\begin{bmatrix} 1\\\\1\\\\0 \end{bmatrix}
+\in B,
+$$
+
+whereas
+
+$$
+\begin{bmatrix} 0\\\\0\\\\1 \end{bmatrix}
+\;
+\begin{bmatrix} 0\\\\0\\\\1 \end{bmatrix}
+\notin B.
+$$
+
+Show that $B$ is regular.
