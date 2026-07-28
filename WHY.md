@@ -55,4 +55,4 @@ Success means:
 - stronger intuition,
 - deeper understanding,
 - better questions,
-- and more rigorous reasoning.
+- and more rigorous reasoning.                   
